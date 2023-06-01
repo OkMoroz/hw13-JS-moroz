@@ -6,9 +6,6 @@ document.querySelector(".form").addEventListener("submit", function (event) {
 
   console.log(`Email:`, email);
   console.log(`Password:`, password);
-  alert(`Email: ${email}`);
-  alert(`Password: ${password}`);
-
   document.querySelector(".loader").classList.remove("loader--hidden");
 
   setTimeout(function () {
