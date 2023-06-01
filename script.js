@@ -4,8 +4,10 @@ document.querySelector(".form").addEventListener("submit", function (event) {
   const email = document.getElementsByName("email")[0].value;
   const password = document.getElementsByName("password")[0].value;
 
-  console.log("Email:", email);
-  console.log("Password:", password);
+  console.log(`Email:`, email);
+  console.log(`Password:`, password);
+  alert(`Email: ${email}`);
+  alert(`Password: ${password}`);
 
   document.querySelector(".loader").classList.remove("loader--hidden");
 
